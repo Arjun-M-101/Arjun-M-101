@@ -35,16 +35,16 @@
 <br/>
 
 <p align="center">
-    <a href="https://github.com/Arjun-Parzival101/github-readme-streak-stats">
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Arjun's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Arjun-Parzival101&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
+    <a href="https://github.com/Arjun-M-101/github-readme-streak-stats">
+        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Arjun's streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Arjun-M-101&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
     </a>
 </p>
 
 ## 📊 My Github Stats
 
   <br/>
-    <a href="https://github.com/Arjun-Parzival101/github-readme-stats"><img alt="Subham Raoniar's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Arjun-Parzival101&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
-  <a href="https://github.com/Arjun-Parzival101/github-readme-stats"><img alt="Subham Raoniar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjun-Parzival101&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+    <a href="https://github.com/Arjun-M-101/github-readme-streak-stats"><img alt="Arjun M's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Arjun-Parzival101&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+  <a href="https://github.com/Arjun-M-101/github-readme-streak-stats"><img alt="Subham Raoniar's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 
@@ -52,7 +52,7 @@
 <br/>
 <br/>
 
-<a href="https://github.com/Arjun-Parzival101/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Arjun-Parzival101&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+<a href="https://github.com/Arjun-M-101/github-readme-activity-graph"><img alt="Subham Raoniar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Arjun-M-101&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
 
 <br/>
 <br/>
@@ -68,4 +68,4 @@
 <a href="https://github.com/Meghna-DAS/github-profile-views-counter">
     <img src="https://komarev.com/ghpvc/?username=Arjun-Parzival101">
 </a>
-<a href="https://github.com/Arjun-Parzival101?tab=followers"><img src="https://img.shields.io/github/followers/Arjun-Parzival101?label=Followers&style=social" alt="GitHub Badge"></a>
+<a href="https://github.com/Arjun-M-101?tab=followers"><img src="https://img.shields.io/github/followers/Arjun-M-101?label=Followers&style=social" alt="GitHub Badge"></a>
