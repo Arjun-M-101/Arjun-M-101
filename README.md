@@ -66,6 +66,6 @@
 
 ## ❤ Views and Followers
 <a href="https://github.com/Arjun-M-101/github-profile-views-counter">
-    <img src="https://komarev.com/ghpvc/?username=Arjun-Parzival101">
+    <img src="https://komarev.com/ghpvc/?username=Arjun-M-101">
 </a>
 <a href="https://github.com/Arjun-M-101?tab=followers"><img src="https://img.shields.io/github/followers/Arjun-M-101?label=Followers&style=social" alt="GitHub Badge"></a>
