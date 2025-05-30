@@ -52,7 +52,7 @@
 <br/>
 <br/>
 
-<a href="https://github.com/Arjun-M-101/github-readme-activity-graph"><img alt="Arjun's Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Arjun-M-101&bg_color=0f3fe9&color=9e4c98&line=9e4c98&point=403d3d&area=true&hide_border=true"/></a>
+<a href="https://github.com/Arjun-M-101/github-readme-activity-graph"><img alt="Arjun's Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Arjun-M-101&bg_color=0935e9&color=fefc98&line=9e4c98&point=403d3d&area=true&hide_border=true"/></a>
 
 <br/>
 <br/>
