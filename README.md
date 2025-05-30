@@ -6,7 +6,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 I’m currently working as **Database Administrator**
+- 👨‍💻 I’m a **Database Administrator**
 
 - 🌱 I’m currently learning **DevOps Engineering**
 
