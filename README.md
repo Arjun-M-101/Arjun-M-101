@@ -20,16 +20,50 @@
 ## 🚀 Data Engineering Stack
 
 <p align="left">
-  <!-- Core DE -->
-  <a href="https://kafka.apache.org/" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-apache-kafka-a-distributed-event-streaming-platform-logo-color-tal-revivo.png"/></a>
-  <a href="https://spark.apache.org/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/apache-spark.png"/></a>
-  <a href="https://airflow.apache.org/" target="_blank"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-apache-airflow-an-open-source-tool-for-authoring-scheduling-and-monitoring-workflows-logo-shadow-tal-revivo.png"/></a>
-  <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.icons8.com/color/48/000000/postgreesql.png"/></a>
-  <a href="https://www.python.org/" target="_blank"><img src="https://img.icons8.com/color/48/000000/python.png"/></a>
-  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.icons8.com/color/48/000000/pandas.png"/></a>
-  <a href="https://streamlit.io/" target="_blank"><img src="https://img.icons8.com/color/48/000000/streamlit.png"/></a>
-  <a href="https://www.docker.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/docker.png"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://img.icons8.com/color/48/000000/git.png"/></a>
+  <!-- Kafka -->
+  <a href="https://kafka.apache.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
+  </a>
+
+  <!-- Spark -->
+  <a href="https://spark.apache.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark" width="48" height="48"/>
+  </a>
+
+  <!-- Airflow -->
+  <a href="https://airflow.apache.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original-wordmark.svg" alt="Airflow" width="48" height="48"/>
+  </a>
+
+  <!-- Postgres -->
+  <a href="https://www.postgresql.org/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
+  </a>
+
+  <!-- Python -->
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/python.png"/>
+  </a>
+
+  <!-- Pandas -->
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="48" height="48"/>
+  </a>
+
+  <!-- Streamlit -->
+  <a href="https://streamlit.io/" target="_blank">
+    <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
+  </a>
+
+  <!-- Docker -->
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/docker.png"/>
+  </a>
+
+  <!-- Git -->
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/git.png"/>
+  </a>
 </p>
 
 ---
