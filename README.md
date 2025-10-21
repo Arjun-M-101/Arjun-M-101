@@ -36,11 +36,22 @@
 
 ## 📂 Featured Projects
 
-- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
-  Real‑time stock tick simulation → Kafka → Spark Structured Streaming → Postgres + Parquet → Streamlit dashboard → Orchestrated with Airflow.
+- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
+  End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
+  - Orchestrated with **Apache Airflow (3.x)**  
+  - Transformations with **Apache Spark**  
+  - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
+  - Serving layer in **Postgres** (analytics‑ready tables)  
+  - Interactive **Streamlit + Altair dashboard** via SQLAlchemy  
+  - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI  
 
-- 🗄️ **[Batch Data Pipeline](https://github.com/Arjun-M-101/Batch_Pipeline)**  
-  Batch ETL pipeline with Airflow DAGs, Postgres warehouse, and partitioned Parquet data lake.
+- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
+  Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
+  - Ingestion via **Kafka producer** publishing to `stock_ticks` topic  
+  - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
+  - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
+  - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
+  - Fully orchestrated with **Apache Airflow**  
 
 ---
 
