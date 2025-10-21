@@ -17,7 +17,7 @@
 
 ---
 
-## 🚀 Data Engineering Stack
+## 🚀 Tech Stack
 
 <p align="left">
 
