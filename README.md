@@ -20,14 +20,25 @@
 ## 🚀 Data Engineering Stack
 
 <p align="left">
-  <!-- Kafka -->
-  <a href="https://kafka.apache.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
+
+  <!-- Python -->
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/python.png"/>
+  </a>
+
+  <!-- Pandas -->
+  <a href="https://pandas.pydata.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="48" height="48"/>
   </a>
 
   <!-- Spark -->
   <a href="https://spark.apache.org/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark" width="48" height="48"/>
+  </a>
+  
+  <!-- Kafka -->
+  <a href="https://kafka.apache.org/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
   </a>
 
   <!-- Airflow -->
@@ -40,14 +51,9 @@
     <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
   </a>
 
-  <!-- Python -->
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/python.png"/>
-  </a>
-
-  <!-- Pandas -->
-  <a href="https://pandas.pydata.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="48" height="48"/>
+  <!-- MySQL -->
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
   </a>
 
   <!-- Streamlit -->
@@ -58,6 +64,31 @@
   <!-- Docker -->
   <a href="https://www.docker.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/docker.png"/>
+  </a>
+
+  <!-- HTML -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="48" height="48"/>
+  </a>
+
+  <!-- CSS -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="48" height="48"/>
+  </a>
+
+  <!-- JavaScript -->
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48"/>
+  </a>
+
+  <!-- Bootstrap -->
+  <a href="https://getbootstrap.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="48" height="48"/>
+  </a>
+
+  <!-- Postman -->
+  <a href="https://www.postman.com/" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" width="48" height="48"/>
   </a>
 
   <!-- Git -->
