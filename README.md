@@ -61,6 +61,11 @@
     <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
   </a>
 
+  <!-- Git -->
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/git.png"/>
+  </a>
+
   <!-- Docker -->
   <a href="https://www.docker.com/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/docker.png"/>
@@ -91,10 +96,6 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" alt="Postman" width="48" height="48"/>
   </a>
 
-  <!-- Git -->
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/git.png"/>
-  </a>
 </p>
 
 ---
