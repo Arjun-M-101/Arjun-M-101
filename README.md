@@ -23,12 +23,12 @@
 
   <!-- Python -->
   <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/python.png"/>
+    <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python"/>
   </a>
 
   <!-- Pandas -->
   <a href="https://pandas.pydata.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="48" height="48"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
   </a>
 
   <!-- Spark -->
@@ -48,7 +48,7 @@
 
   <!-- Postgres -->
   <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/postgreesql.png"/>
+    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres"/>
   </a>
 
   <!-- MySQL -->
@@ -63,12 +63,17 @@
 
   <!-- Git -->
   <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/git.png"/>
+    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/>
   </a>
 
   <!-- Docker -->
   <a href="https://www.docker.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/docker.png"/>
+    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker"/>
+  </a>
+
+  <!-- AWS -->
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS"/>
   </a>
 
   <!-- HTML -->
