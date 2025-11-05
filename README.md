@@ -132,7 +132,11 @@
 
 ## 📜 Certifications
 
-- 🏆 **AWS Certified Cloud Practitioner** — (https://aws.amazon.com/certification/certified-cloud-practitioner/)
+<!-- AWS Certified Cloud Practitioner -->
+<a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
+  <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png" alt="AWS Certified Cloud Practitioner" width="96" height="96"/>
+</a>
+- 🏆 **AWS Certified Cloud Practitioner**
 
 ---
 
