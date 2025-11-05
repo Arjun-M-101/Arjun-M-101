@@ -134,9 +134,9 @@
 
 <!-- AWS Certified Cloud Practitioner -->
 <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
-  <img src="https://img.icons8.com/color/96/000000/amazon-web-services.png" alt="AWS Certified Cloud Practitioner" width="96" height="96"/>
+  <img src="https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/images/certification-badges/clf-badge-resized.2fdbed6fe7b39cf6cef5063f283ddd689cc78caa.png" 
+       alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
 </a>
-- 🏆 **AWS Certified Cloud Practitioner**
 
 ---
 
