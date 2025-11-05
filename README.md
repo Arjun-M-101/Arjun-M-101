@@ -134,8 +134,7 @@
 
 <!-- AWS Certified Cloud Practitioner -->
 <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
-  <img src="[[https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/certification/approved/images/certification-badges/clf-badge-resized.2fdbed6fe7b39cf6cef5063f283ddd689cc78caa.png](https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)](https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png)" 
-       alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
+  <img width="340" height="340" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
 </a>
 
 ---
