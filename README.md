@@ -134,7 +134,7 @@
 
 <!-- AWS Certified Cloud Practitioner -->
 <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
-  <img width="340" height="340" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
+  <img width="100" height="100" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
 </a>
 
 ---
