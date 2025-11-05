@@ -128,6 +128,8 @@
   - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
   - Fully orchestrated with **Apache Airflow**  
 
+---
+
 ## 📜 Certifications
 
 <!-- AWS Certified Cloud Practitioner -->
