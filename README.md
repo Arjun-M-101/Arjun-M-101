@@ -17,8 +17,6 @@
 
 ---
 
-## 🚀 Tech Stack
-
 <p align="left">
 
 ## 🛠️ Tech Stack
