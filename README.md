@@ -130,6 +130,10 @@
   - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
   - Fully orchestrated with **Apache Airflow**  
 
+## 📜 Certifications
+
+- 🏆 **AWS Certified Cloud Practitioner** — (https://aws.amazon.com/certification/certified-cloud-practitioner/)
+
 ---
 
 ## 📊 My GitHub Stats
