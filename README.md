@@ -26,7 +26,7 @@
 ### 🔹 Languages
   <!-- Python -->
   <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python"/>
+    <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="100" height="100" />
   </a>
 
 ### 🔹 Data Engineering & Analytics
@@ -57,7 +57,7 @@
 ### 🔹 Databases
   <!-- Postgres -->
   <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres"/>
+    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
   </a>
 
   <!-- MySQL -->
@@ -68,17 +68,17 @@
 ### 🔹 DevOps & Cloud
   <!-- Git -->
   <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/>
+    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
   </a>
 
   <!-- Docker -->
   <a href="https://www.docker.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker"/>
+    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="48" height="48"/>
   </a>
 
   <!-- AWS -->
   <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS"/>
+    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
   </a>
 
 ### 🔹 Web Basics (optional)
