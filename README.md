@@ -66,6 +66,10 @@
   <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank"> 
     <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/> 
   </a>
+  <!-- IBM DB2 --> 
+  <a href="https://www.ibm.com/products/db2" target="_blank"> 
+    <img src="https://img.icons8.com/color/48/000000/ibm.png" alt="IBM DB2" width="48" height="48"/> 
+  </a>
 
 ### 🔹 DevOps & Cloud
   <!-- Linux -->
