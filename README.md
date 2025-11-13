@@ -62,6 +62,10 @@
   <a href="https://www.mysql.com/" target="_blank">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
   </a>
+  <!-- MS SQL Server --> 
+  <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank"> 
+    <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/> 
+  </a>
 
 ### 🔹 DevOps & Cloud
   <!-- Linux -->
