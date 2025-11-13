@@ -68,7 +68,7 @@
   </a>
   <!-- IBM DB2 --> 
   <a href="https://www.ibm.com/products/db2" target="_blank"> 
-    <img src="[https://img.favpng.com/21/19/17/ibm-db2-database-computer-software-sql-png-favpng-1dVDH9CsXbsty03z6uf5GkGbN.jpg](https://icons.veryicon.com/png/o/education-technology/onemind/db2.png)" alt="IBM DB2" width="48" height="48"/> 
+    <img src="https://icons.veryicon.com/png/o/education-technology/onemind/db2.png" alt="IBM DB2" width="48" height="48"/> 
   </a>
 
 ### 🔹 DevOps & Cloud
