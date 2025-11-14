@@ -143,12 +143,14 @@
   <img width="100" height="100" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
 </a>
 
+<!-- Coursera - Python for Everybody (Specialization) - University of Michigan -->
 <a href="https://coursera.org/share/0ea80e3e8ef0a19fcddd5805f12a11b3" target="_blank">
-  <img width="100" height="100" src="[[assets/python.png](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)" alt="Python for Everybody"/>
+  <img width="100" height="100" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera Python for Everybody Badge"/>
 </a>
 
+<!-- Coursera - Databases and SQL for Data Science with Python - IBM -->
 <a href="https://coursera.org/share/f5bfc62d51c5094a8bffae3651f360ae" target="_blank">
-  <img width="100" height="100" src="[[assets/sql.png](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)" alt="Databases and SQL"/>
+  <img width="100" height="100" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera Databases and SQL for Data Science Badge"/>
 </a>
 
 ---
