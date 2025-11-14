@@ -22,10 +22,15 @@
 ## 🛠️ Tech Stack
 
 ### 🔹 Languages
-  <!-- Python -->
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48" />
-  </a>
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://www.python.org/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 Data Engineering & Analytics
 <table border="0">
@@ -59,65 +64,82 @@
 </table>
 
 ### 🔹 Databases
-  <!-- Postgres -->
-  <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
-  </a>
-
-  <!-- MySQL -->
-  <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
-  </a>
-  <!-- MS SQL Server --> 
-  <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank"> 
-    <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/> 
-  </a>
-  <!-- IBM DB2 --> 
-  <a href="https://www.ibm.com/products/db2" target="_blank"> 
-    <img src="https://icons.veryicon.com/png/o/education-technology/onemind/db2.png" alt="IBM DB2" width="48" height="48"/> 
-  </a>
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://www.postgresql.org/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.mysql.com/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.ibm.com/products/db2" target="_blank">
+        <img src="https://icons.veryicon.com/png/o/education-technology/onemind/db2.png" alt="IBM DB2" width="48" height="48"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 DevOps & Cloud
-  <!-- Linux -->
-  <a href="https://www.linux.org/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
-  </a>
-
-  <!-- Git -->
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
-  </a>
-
-  <!-- Docker -->
-  <a href="https://www.docker.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="48" height="48"/>
-  </a>
-
-  <!-- AWS -->
-  <a href="https://aws.amazon.com/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
-  </a>
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://www.linux.org/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://git-scm.com/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://www.docker.com/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://aws.amazon.com/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 Web Basics
-  <!-- HTML -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="48" height="48"/>
-  </a>
-
-  <!-- CSS -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="48" height="48"/>
-  </a>
-
-  <!-- JavaScript -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48"/>
-  </a>
-
-  <!-- Bootstrap -->
-  <a href="https://getbootstrap.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="48" height="48"/>
-  </a>
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://getbootstrap.com/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="48" height="48"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
