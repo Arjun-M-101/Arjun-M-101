@@ -213,8 +213,7 @@
 ---
 
 <a href="https://github.com/Arjun-M-101/github-readme-activity-graph">
-  <img alt="Arjun's Graph" 
-     src="https://github-readme-activity-graph.vercel.app/graph?username=Arjun-M-101&bg_color=0D1117&color=ffffff&line=9b59b6&point=c084f5&area=true&hide_border=true"/>
+  <img alt="Arjun's Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=Arjun-M-101&bg_color=000000&color=ffffff&line=38f2ff&point=80f0ff&area=true&hide_border=true"/>
 </a>
 
 ---
