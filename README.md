@@ -144,11 +144,11 @@
 </a>
 
 <a href="https://coursera.org/share/0ea80e3e8ef0a19fcddd5805f12a11b3" target="_blank">
-  <img width="100" height="100" src="assets/python.png" alt="Python for Everybody"/>
+  <img width="100" height="100" src="[assets/python.png](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)" alt="Python for Everybody"/>
 </a>
 
 <a href="https://coursera.org/share/f5bfc62d51c5094a8bffae3651f360ae" target="_blank">
-  <img width="100" height="100" src="assets/sql.png" alt="Databases and SQL"/>
+  <img width="100" height="100" src="[assets/sql.png](https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png)" alt="Databases and SQL"/>
 </a>
 
 ---
