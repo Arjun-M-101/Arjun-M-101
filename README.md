@@ -166,12 +166,7 @@
 
 ## 📜 Certifications
 
-<table border="0" 
-       style="border-collapse: collapse; 
-              border: 2px solid #ccc; 
-              border-radius: 15px; 
-              overflow: hidden;">
-
+<table border="0">
   <tr>
     <td>
       <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
