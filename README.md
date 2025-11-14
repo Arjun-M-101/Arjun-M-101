@@ -28,29 +28,35 @@
   </a>
 
 ### 🔹 Data Engineering & Analytics
-  <!-- Pandas -->
-  <a href="https://pandas.pydata.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
-  </a>
-
-  <!-- Spark -->
-  <a href="https://spark.apache.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark" width="48" height="48"/>
-  </a>
-  
-  <!-- Kafka -->
-  <a href="https://kafka.apache.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
-  </a>
-
-  <!-- Airflow -->
-  <a href="https://airflow.apache.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original-wordmark.svg" alt="Airflow" width="48" height="48"/>
-  </a>
-  <!-- Streamlit -->
-  <a href="https://streamlit.io/" target="_blank">
-    <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
-  </a>
+<table border="0">
+  <tr>
+    <td>
+      <a href="https://pandas.pydata.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://spark.apache.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://kafka.apache.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://airflow.apache.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original-wordmark.svg" alt="Airflow" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://streamlit.io/" target="_blank">
+        <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 Databases
   <!-- Postgres -->
