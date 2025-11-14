@@ -138,20 +138,25 @@
 
 ## 📜 Certifications
 
-<!-- AWS Certified Cloud Practitioner -->
-<a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
-  <img width="100" height="100" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Certified Cloud Practitioner Badge" width="120" height="120"/>
-</a>
-
-<!-- Coursera - Python for Everybody -->
-<a href="https://coursera.org/share/0ea80e3e8ef0a19fcddd5805f12a11b3" target="_blank">
-  <img width="100" height="100" style="vertical-align: middle;" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera Python for Everybody Badge"/>
-</a>
-
-<!-- Coursera - Databases and SQL for Data Science -->
-<a href="https://coursera.org/share/f5bfc62d51c5094a8bffae3651f360ae" target="_blank">
-  <img width="100" height="100" style="vertical-align: middle;" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera Databases and SQL Badge"/>
-</a>
+<table>
+  <tr>
+    <td>
+      <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
+        <img width="100" height="100" src="https://github.com/user-attachments/assets/58ceb4b2-d556-4eaf-94af-a353d1039cc8" alt="AWS Badge"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://coursera.org/share/0ea80e3e8ef0a19fcddd5805f12a11b3" target="_blank">
+        <img width="100" height="100" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera Python Badge"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://coursera.org/share/f5bfc62d51c5094a8bffae3651f360ae" target="_blank">
+        <img width="100" height="100" src="https://1000logos.net/wp-content/uploads/2022/06/Coursera-Logo.png" alt="Coursera SQL Badge"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
