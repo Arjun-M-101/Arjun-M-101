@@ -145,12 +145,12 @@
 
 <!-- Coursera - Python for Everybody (Specialization) - University of Michigan -->
 <a href="https://coursera.org/share/0ea80e3e8ef0a19fcddd5805f12a11b3" target="_blank">
-  <img width="100" height="100" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3EU4YYC5DUKE/CERTIFICATE_LANDING_PAGE~3EU4YYC5DUKE.jpeg" alt="Coursera Python for Everybody Badge"/>
+  <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Coursera_logo.svg" alt="Coursera Python for Everybody Badge"/>
 </a>
 
 <!-- Coursera - Databases and SQL for Data Science with Python - IBM -->
 <a href="https://coursera.org/share/f5bfc62d51c5094a8bffae3651f360ae" target="_blank">
-  <img width="100" height="100" src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~F7I2B5A7JND2/CERTIFICATE_LANDING_PAGE~F7I2B5A7JND2.jpeg" alt="Coursera Databases and SQL for Data Science with Python Badge"/>
+  <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Coursera_logo.svg" alt="Coursera Databases and SQL for Data Science Badge"/>
 </a>
 
 ---
