@@ -196,8 +196,8 @@
 
 <p align="center">
   <a href="https://github.com/Arjun-M-101/github-readme-streak-stats">
-  <img alt="Arjun's streak" 
-       src="https://streak-stats.demolab.com?user=Arjun-M-101&hide_border=true&background=0D1117&stroke=ffffff&ring=9b59b6&fire=c084f5&currStreakLabel=9b59b6&sideNums=c084f5&sideLabels=9b59b6"/>
+    <img alt="Arjun's streak" 
+         src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
   </a>
 </p>
 
