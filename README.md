@@ -138,7 +138,7 @@
 
 ## 📜 Certifications
 
-<table border=0>
+<table border="0">
   <tr>
     <td>
       <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank">
