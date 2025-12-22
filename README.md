@@ -154,7 +154,7 @@
   - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
   - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
   - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
-  - Uses **window functions** (ROW_NUMBER) and joins to integrate history, resolve conflicts, and conform dimensions
+  - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
 - 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
