@@ -14,8 +14,7 @@
 - 👨‍💻 I’m currently working as a **Database Administrator**, building strong foundations in data management and reliability  
 - 🌱 Transitioning into **Data Engineering** by designing end‑to‑end batch and streaming pipelines  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights
-- 👯 Open to collaborating on **Data Engineering & Open Source projects**  
-<!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
+- 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
 - 📫 Reach me at **arjunmpec101@gmail.com**  
 - ⚡ Fun fact: **I debug pipelines the way I play games — with persistence and strategy**  
 
