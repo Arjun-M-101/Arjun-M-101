@@ -150,13 +150,13 @@
 ## 📂 Featured Projects
 
 - 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
-  End‑to‑end SQL data warehouse implementing a Bronze → Silver → Gold layered architecture for retail sales.
-  - Built entirely in SQL Server/MySQL (no external ETL tool)
-  - Bronze layer mirrors raw CRM & ERP source tables (customers, products, sales, locations)
-  - Silver layer applies data quality checks (ID normalization, date validation, gender/marital‑status standardization)
-  - Gold layer models a star schema with fact_sales, dim_customers, and dim_products using surrogate keys
-  - Uses window functions (ROW_NUMBER) and joins to integrate history, resolve conflicts, and conform dimensions
-  - Produces analytics‑ready views/tables suitable for BI tools and downstream reporting
+  End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
+  - Built entirely in **SQL Server/MySQL** (no external ETL tool)
+  - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
+  - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
+  - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
+  - Uses **window functions** (ROW_NUMBER) and joins to integrate history, resolve conflicts, and conform dimensions
+  - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
 - 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
   End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
