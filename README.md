@@ -207,8 +207,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-arjun.vercel.app/api?username=Arjun-M-101&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Github Stats"/>
-  <img src="https://github-readme-stats-arjun.vercel.app/api/top-langs/?username=Arjun-M-101&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Top Languages"/>
+  <img src=https://github-readme-stats-rose-tau.vercel.app/api?username=Arjun-M-101&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Github Stats"/>
+  <img src="https://github-readme-stats-rose-tau.vercel.app/api/top-langs/?username=Arjun-M-101&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Top Languages"/>
 </p>
 
 ---
