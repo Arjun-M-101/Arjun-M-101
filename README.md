@@ -203,12 +203,18 @@
 ## 📊 My GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=black-ice&hide_border=true" alt="Arjun's streak"/>
+  <a href="https://github.com/Arjun-M-101/github-readme-streak-stats">
+    <img alt="Arjun's streak" 
+         src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
+  </a>
 </p>
-
 <p align="center">
-  <img src=https://github-readme-stats-rose-tau.vercel.app/api?username=Arjun-M-101&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Github Stats"/>
-  <img src="https://github-readme-stats-rose-tau.vercel.app/api/top-langs/?username=Arjun-M-101&layout=compact&theme=react&hide_border=true&bg_color=0D1117" alt="Arjun M's Top Languages"/>
+<a href="https://github.com/Arjun-M-101/github-readme-streak-stats">
+  <img alt="Arjun M's Github Stats" src="https://github-readme-stats-rose-tau.vercel.app/api?username=Arjun-M-101&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/>
+</a>
+<a href="https://github.com/Arjun-M-101/github-readme-streak-stats">
+  <img alt="Arjun M's Top Languages" src="https://github-readme-stats-rose-tau.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"/>
+</a>
 </p>
 
 ---
