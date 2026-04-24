@@ -210,10 +210,12 @@
 </p>
 <p align="center">
 <a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Github Stats" src="https://github-readme-stats-one.vercel.app/api?username=Arjun-M-101&show_icons=true&count_private=true&theme=black-ice&hide_border=true&bg_color=0D1117"/>
+  <img alt="Arjun M's Github Stats" 
+     src="https://github-readme-stats-one.vercel.app/api?username=Arjun-M-101&show_icons=true&count_private=true&theme=black-ice&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=00FFFF"/>
 </a>
 <a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Top Languages" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=black-ice&hide_border=true&bg_color=0D1117"/>
+  <img alt="Arjun M's Top Languages" 
+     src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=black-ice&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF"/>
 </a>
 </p>
 
