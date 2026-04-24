@@ -150,17 +150,6 @@
 
 ## 📂 Featured Projects
 
-- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
-  End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
-  - Built entirely in **SQL Server/MySQL** (no external ETL tool)
-  - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
-  - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
-  - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
-  - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
-  - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
-
----
-
 - 🗄️ **[Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)**
   - Built an end-to-end analytics pipeline: **Python (Pandas)** for EDA and RFM aggregation of **541K+ transactions**, hardened schema in **SQL Server**, and modeled in **Power BI**.  
   - Engineered an **RFM segmentation model** using **RANKX quintile scoring in DAX**, dynamically assigning 1–5 scores for Recency, Frequency, and Monetary value.  
@@ -178,6 +167,17 @@
   - Designed an **interactive Tooltip Page** linked to forecast charts — hovering over spikes surfaces category-level breakdown instantly.  
   - Enabled operations managers to **identify declining categories without scanning tables**, accelerating decision-making.  
   - Delivered a **business-ready forecasting solution** integrating SQL + Power BI + AI forecasting for inventory planning and revenue optimization.  
+
+---
+
+- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
+  End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
+  - Built entirely in **SQL Server/MySQL** (no external ETL tool)
+  - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
+  - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
+  - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
+  - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
+  - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
 ---
 
