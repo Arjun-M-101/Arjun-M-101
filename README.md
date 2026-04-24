@@ -9,14 +9,16 @@
 
 ---
 
-## 🙋‍♂️ About Me
+## 👨‍💻 About Me
 
-- 👨‍💻 I’m currently working as a **Database Administrator**, building strong foundations in data management and reliability  
-- 🌱 Transitioning into **Data Engineering** by designing end‑to‑end batch and streaming pipelines  
-- 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights
-- 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
-- 📫 Reach me at **arjunmpec101@gmail.com**  
-- ⚡ Fun fact: **I debug pipelines the way I play games — with persistence and strategy**  
+- Currently working as a **Database Administrator / System Analyst**, with **2.5+ years of enterprise SQL and analytics experience**.  
+- Specializing in **Data Analytics & Business Analytics**, applying SQL, Power BI, and Python to deliver actionable insights that drive decisions.  
+- Passionate about building **analytics solutions** that transform raw data into business‑ready dashboards and decision frameworks.  
+- Experienced in **large‑scale enterprise data & analytics projects**:  
+  - Customer Churn & Retention Analytics (RFM segmentation of **541K+ transactions**)  
+  - Retail Sales Forecasting (AI seasonal forecasting across **4 years of retail data**)  
+- Open to collaborating on **Business Analytics & Open Source projects**, especially those involving SQL optimization, BI dashboards, and forecasting models.  
+- 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5) | [GitHub](https://github.com/Arjun-M-101)  
 
 ---
 
@@ -157,22 +159,24 @@
   - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
-- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
-  End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
-  - Orchestrated with **Apache Airflow (3.x)**  
-  - Transformations with **Apache Spark**  
-  - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
-  - Serving layer in **Postgres** (analytics‑ready tables)  
-  - Interactive **Streamlit + Altair dashboard** via SQLAlchemy  
-  - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI  
+## 📌 Featured Projects
+- 🗄️ **[Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)**
+  - Built an end-to-end analytics pipeline: **Python (Pandas)** for EDA and RFM aggregation of **541K+ transactions**, hardened schema in **SQL Server**, and modeled in **Power BI**.  
+  - Engineered an **RFM segmentation model** using **RANKX quintile scoring in DAX**, dynamically assigning 1–5 scores for Recency, Frequency, and Monetary value.  
+  - Produced **four actionable customer segments**: Champions, Loyal Customers, At Risk, and Hibernating — enabling targeted retention strategies.  
+  - Developed an **interactive What-If Revenue Recovery simulator** using Power BI Numeric Range parameter + SELECTEDVALUE DAX.  
+  - Enabled marketing stakeholders to **model financial impact of retention campaigns in real time** against the At-Risk segment.  
+  - Delivered a **business-ready churn dashboard** combining raw data ingestion → RFM scoring → visualization → revenue recovery simulation.  
 
-- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
-  Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
-  - Ingestion via **Kafka producer** publishing to `stock_ticks` topic  
-  - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
-  - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
-  - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
-  - Fully orchestrated with **Apache Airflow**  
+---
+
+- 📊 **[Retail Inventory & Sales Forecasting](https://github.com/Arjun-M-101/Retail_Sales_Forecasting)**
+- Engineered a **multi-layer data pipeline**: SQL Server View for raw abstraction → Power Query monthly aggregation (**9,994 daily rows → 573 monthly rows**) → Power BI Time Intelligence model.  
+  - Implemented **CALENDARAUTO DateTable** with SAMEPERIODLASTYEAR and TOTALYTD DAX measures for **YoY and YTD benchmarking across 4 years** of retail transactions.  
+  - Built an **AI-powered 3-month seasonal forecast** (exponential smoothing, seasonality=12, 95% CI) with conditional alert cards that auto‑highlight declining categories.  
+  - Designed an **interactive Tooltip Page** linked to forecast charts — hovering over spikes surfaces category-level breakdown instantly.  
+  - Enabled operations managers to **identify declining categories without scanning tables**, accelerating decision-making.  
+  - Delivered a **business-ready forecasting solution** integrating SQL + Power BI + AI forecasting for inventory planning and revenue optimization.  
 
 ---
 
