@@ -15,8 +15,8 @@
 - Specializing in **Data Analytics & Business Analytics**, applying SQL, Power BI, and Python to deliver actionable insights that drive decisions.  
 - Passionate about building **analytics solutions** that transform raw data into business‑ready dashboards and decision frameworks.  
 - Experienced in **large‑scale enterprise data & analytics projects**:  
-  - Customer Churn & Retention Analytics (RFM segmentation of **541K+ transactions**)  
-  - Retail Sales Forecasting (AI seasonal forecasting across **4 years of retail data**)  
+  - [Customer Churn & Retention Analytics](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model) (RFM segmentation of **541K+ transactions**)  
+  - [Retail Sales Forecasting](https://github.com/Arjun-M-101/Retail_Sales_Forecasting) (AI seasonal forecasting across **4 years of retail data**)  
 - Open to collaborating on **Business Analytics & Open Source projects**, especially those involving SQL optimization, BI dashboards, and forecasting models.  
 - 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5)
 
