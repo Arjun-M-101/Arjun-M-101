@@ -205,7 +205,7 @@
 <p align="center">
   <a href="https://github.com/Arjun-M-101">
     <img alt="Arjun's streak"
-         src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=black-ice&hide_border=true&background=0D1117&stroke=FFFFFF"/>
+         src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=react&hide_border=true&background=0D1117&stroke=FFFFFF"/>
   </a>
 </p>
 <p align="center">
