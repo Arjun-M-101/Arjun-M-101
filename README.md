@@ -203,17 +203,17 @@
 ## 📊 My GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/Arjun-M-101">
+  <a href="https://github.com">
     <img alt="Arjun's streak"
-         src="https://streak-stats.demolab.com?user=Arjun-M-101&theme=black-ice&hide_border=true&background=0D1117&stroke=FFFFFF"/>
+         src="https://demolab.com"/>
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Github Stats" src="https://github-readme-stats-one.vercel.app/api?username=Arjun-M-101&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"/>
+<a href="https://github.com">
+  <img alt="Arjun M's Github Stats" src="https://vercel.app"/>
 </a>
-<a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Top Languages" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"/>
+<a href="https://github.com">
+  <img alt="Arjun M's Top Languages" src="https://vercel.app"/>
 </a>
 </p>
 
