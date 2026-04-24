@@ -18,7 +18,7 @@
   - Customer Churn & Retention Analytics (RFM segmentation of **541K+ transactions**)  
   - Retail Sales Forecasting (AI seasonal forecasting across **4 years of retail data**)  
 - Open to collaborating on **Business Analytics & Open Source projects**, especially those involving SQL optimization, BI dashboards, and forecasting models.  
-- 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5) | [GitHub](https://github.com/Arjun-M-101)  
+- 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5)
 
 ---
 
