@@ -158,7 +158,7 @@
   - Enabled marketing stakeholders to **model financial impact of retention campaigns in real time** against the At-Risk segment.  
   - Delivered a **business-ready churn dashboard** combining raw data ingestion → RFM scoring → visualization → revenue recovery simulation.  
 
-- 📊 **[Retail Sales Forecasting](https://github.com/Arjun-M-101/Retail_Sales_Forecasting)**  
+- 📊 **[Retail Inventory & Sales Forecasting](https://github.com/Arjun-M-101/Retail_Sales_Forecasting)**  
   Engineered a **multi-layer data pipeline**: SQL Server View for raw abstraction → Power Query monthly aggregation (**9,994 daily rows → 573 monthly rows**) → Power BI Time Intelligence model.  
   - Implemented **CALENDARAUTO DateTable** with SAMEPERIODLASTYEAR and TOTALYTD DAX measures for **YoY and YTD benchmarking across 4 years** of retail transactions.  
   - Built an **AI-powered 3-month seasonal forecast** (exponential smoothing, seasonality=12, 95% CI) with conditional alert cards that auto‑highlight declining categories.  
