@@ -11,7 +11,7 @@
 
 ## 👨‍💻 About Me
 
-- Currently working as a **Database Administrator / System Analyst**, with **2.5+ years of enterprise SQL and analytics experience**.  
+- Currently working as a **Database Administrator | System Analyst**, with **2.5+ years of enterprise SQL and analytics experience**.  
 - Specializing in **Data Analytics & Business Analytics**, applying SQL, Power BI, and Python to deliver actionable insights that drive decisions.  
 - Passionate about building **analytics solutions** that transform raw data into business‑ready dashboards and decision frameworks.  
 - Experienced in **large‑scale enterprise data & analytics projects**:  
