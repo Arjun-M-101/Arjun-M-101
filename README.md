@@ -153,7 +153,7 @@
 - 🗄️ **[Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)**  
   Built an end-to-end analytics pipeline: **Python (Pandas)** for EDA and RFM aggregation of **541K+ transactions**, hardened schema in **SQL Server**, and modeled in **Power BI**.  
   - Engineered an **RFM segmentation model** using **RANKX quintile scoring in DAX**, dynamically assigning 1–5 scores for Recency, Frequency, and Monetary value.  
-  - Produced **four actionable customer segments**: Champions, Loyal Customers, At Risk, and Hibernating — enabling targeted retention strategies.  
+  - Produced **six behavioural customer segments**: Champions, Loyal Customers, Potential Loyalists, Needs Attention, At Risk, and Hibernating — enabling targeted retention strategies.  
   - Developed an **interactive What-If Revenue Recovery simulator** using Power BI Numeric Range parameter + SELECTEDVALUE DAX.  
   - Enabled marketing stakeholders to **model financial impact of retention campaigns in real time** against the At-Risk segment.  
   - Delivered a **business-ready churn dashboard** combining raw data ingestion → RFM scoring → visualization → revenue recovery simulation.  
