@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">Hello <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm Arjun</h1>
-<h3 align="center">Business Analyst | Data Analyst</h3>
+<h3 align="center">Database Administrator | Cloud Data Migration | Mainframe Modernization</h3>
 
 ---
 
