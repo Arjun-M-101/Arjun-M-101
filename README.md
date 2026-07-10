@@ -108,27 +108,6 @@
 
 ---
 
-## 📜 Certifications
-
-<table border="0">
-  <tr>
-    <td>
-      <a href="https://www.credly.com/badges/your-badge-link" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS CCP Badge" width="48" height="48"/>
-      </a>
-      <b>AWS Certified Cloud Practitioner (CLF-C02)</b><br>Amazon Web Services · Mar 2025
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://img.icons8.com/color/48/000000/coursera.png" alt="Coursera Badge" width="48" height="48"/>
-      <b>Python for Everybody Specialization</b><br>Coursera / University of Michigan · Aug 2020
-    </td>
-  </tr>
-</table>
-
----
-
 ## 📂 Projects
 
 > *Note: Projects below reflect earlier SQL and analytics exploration work. 
@@ -269,7 +248,6 @@ End-to-end Bronze → Silver → Gold layered architecture built entirely in SQL
 </table>
 
 ---
--->
 
 ## 📂 Featured Projects
 
@@ -299,6 +277,7 @@ End-to-end Bronze → Silver → Gold layered architecture built entirely in SQL
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
 ---
+-->
 
 ## 📜 Certifications
 
