@@ -13,7 +13,7 @@
 
 - Database Administrator at Kyndryl with 3 years of enterprise experience on IBM Db2 for z/OS, currently part of an active Mainframe-to-AWS Cloud Data Migration program for a global enterprise client.
 - Involved in the Db2 z/OS → Db2 LUW migration workstream — including understanding UNLOAD JCL design, SFTP-to-S3 pipeline architecture, and cross-platform compatibility resolution between Db2 z/OS and Db2 LUW.
-- AWS Certified Cloud Practitioner | Transitioning into IT/Cloud Consulting and Mainframe Modernization.
+- AWS Certified Cloud Practitioner | Transitioning into IT/Cloud Consulting.
 - 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5)
 
 ---
