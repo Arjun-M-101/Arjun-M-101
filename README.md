@@ -113,14 +113,14 @@
 > *Note: Projects below reflect earlier SQL and analytics exploration work. 
 > Current focus is on cloud migration and mainframe modernization.*
 
+### 🧱 [Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)
+End-to-end Bronze → Silver → Gold layered architecture built entirely in SQL Server/MySQL. Star schema with fact_sales, dim_customers, dim_products using surrogate keys, window functions, and analytics-ready views.
+
 ### 🗄️ [Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)
 End-to-end SQL analytics pipeline with Python (Pandas) EDA, RFM segmentation of 541K+ transactions hardened in SQL Server, and interactive Power BI dashboard with What-If Revenue Recovery simulator.
 
 ### 📊 [Retail Inventory & Sales Forecasting](https://github.com/Arjun-M-101/Retail_Inventory_and_Sales_Forecasting)
 Multi-layer data pipeline: SQL Server View → Power Query monthly aggregation → Power BI Time Intelligence model with AI-powered 3-month seasonal forecast (exponential smoothing, 95% CI) and YoY/YTD benchmarking across 4 years of retail data.
-
-### 🧱 [Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)
-End-to-end Bronze → Silver → Gold layered architecture built entirely in SQL Server/MySQL. Star schema with fact_sales, dim_customers, dim_products using surrogate keys, window functions, and analytics-ready views.
 
 <!--
 <p align="left">
