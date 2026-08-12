@@ -135,6 +135,7 @@
   </tr>
 </table>
 <!--
+---
 ### 🔹 Web Basics
 <table border="0">
   <tr>
@@ -161,7 +162,6 @@
   </tr>
 </table>
 -->
----
 
 ## 📂 Featured Projects
 
