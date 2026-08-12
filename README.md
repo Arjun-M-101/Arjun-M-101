@@ -28,13 +28,13 @@
 <table border="0">
   <tr>
     <td>
-      <a href="https://wikipedia.org" target="_blank">
+      <a href="[https://wikipedia.org](https://www.w3schools.com/sql/)" target="_blank">
         <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" alt="SQL" width="48" height="48"/>
       </a>
     </td>
     <td>
       <a href="https://python.org" target="_blank">
-        <img src="https://icons8.com" alt="Python" width="48" height="48"/>
+        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"/>
       </a>
     </td>
   </tr>
