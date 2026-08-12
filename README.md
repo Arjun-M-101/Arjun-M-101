@@ -5,15 +5,15 @@
 </p>
 
 <h1 align="center">Hello <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm Arjun</h1>
-<h3 align="center">Aspiring Data Engineer</h3>
+<h3 align="center">DBA ➔ Data Engineer</h3>
 
 ---
 
 ## 🙋‍♂️ About Me
 
-- 👨‍💻 I’m currently working as a **Database Administrator**, building strong foundations in data management and reliability  
-- 🌱 Transitioning into **Data Engineering** by designing end‑to‑end batch and streaming pipelines  
-- 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights
+- 👨‍💻 **On the Job:** Managing the extraction side of an active Mainframe (Db2 z/OS)-to-AWS Cloud migration - successfully shipped clean data across 280+ tables.
+- 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
+- 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
 - 📫 Reach me at **arjunmpec101@gmail.com**  
 - ⚡ Fun fact: **I debug pipelines the way I play games - with persistence and strategy**  
@@ -117,7 +117,7 @@
     </td>
   </tr>
 </table>
-
+<!--
 ### 🔹 Web Basics
 <table border="0">
   <tr>
@@ -143,7 +143,7 @@
     </td>
   </tr>
 </table>
-
+-->
 ---
 
 ## 📂 Featured Projects
