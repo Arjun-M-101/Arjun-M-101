@@ -148,8 +148,8 @@
 
 ## 📂 Featured Projects
 
-- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
-  End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
+- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
+End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
   - Built entirely in **SQL Server/MySQL** (no external ETL tool)
   - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
   - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
