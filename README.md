@@ -157,8 +157,8 @@
   - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
-- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
-  End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
+- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**
+End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
   - Orchestrated with **Apache Airflow (3.x)**  
   - Transformations with **Apache Spark**  
   - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
