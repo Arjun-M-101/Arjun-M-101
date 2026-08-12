@@ -39,6 +39,7 @@
     </td>
   </tr>
 </table>
+
 <!--
 <table border="0">
   <tr>
@@ -49,7 +50,8 @@
     </td>
   </tr>
 </table>
--->
+-->  
+
 ### 🔹 Data Engineering & Analytics
 <table border="0">
   <tr>
