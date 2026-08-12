@@ -5,124 +5,21 @@
 </p>
 
 <h1 align="center">Hello <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> I'm Arjun</h1>
-<h3 align="center">Database Administrator | Cloud Data Migration | Mainframe Modernization</h3>
+<h3 align="center">Aspiring Data Engineer</h3>
 
 ---
 
-## 👨‍💻 About Me
+## 🙋‍♂️ About Me
 
-- Database Administrator at Kyndryl with 3 years of enterprise experience on IBM Db2 for z/OS, currently part of an active Mainframe-to-AWS Cloud Data Migration program for a global enterprise client.
-- Involved in the Db2 z/OS → Db2 LUW migration workstream — including understanding UNLOAD JCL design, SFTP-to-S3 pipeline architecture, and cross-platform compatibility resolution between Db2 z/OS and Db2 LUW.
-- AWS Certified Cloud Practitioner | Transitioning into IT/Cloud Consulting.
-- 📫 Reach me at **arjunmpec101@gmail.com** | [LinkedIn](https://www.linkedin.com/in/arjun-m-327a7a1a5)
-
----
-
-## 🛠️ Tech Stack
-
-### 🔹 Database & Mainframe
-<table border="0">
-  <tr>
-    <td align="center">
-      <a href="https://www.ibm.com/products/db2" target="_blank">
-        <img src="https://icons.veryicon.com/png/o/education-technology/onemind/db2.png" alt="IBM DB2" width="48" height="48"/>
-      </a>
-      <br>IBM Db2
-    </td>
-    <td align="center">
-      <a href="https://www.ibm.com/z/os" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/server.png" alt="Mainframe" width="48" height="48"/>
-      </a>
-      <br>z/OS
-    </td>
-    <td align="center">
-      <a href="https://www.postgresql.org/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
-      </a>
-      <br>PostgreSQL
-    </td>
-    <td align="center">
-      <a href="https://www.mysql.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
-      </a>
-      <br>MySQL
-    </td>
-    <td align="center">
-      <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/>
-      </a>
-      <br>SQL Server
-    </td>
-  </tr>
-</table>
-
-### 🔹 Cloud & Migration
-<table border="0">
-  <tr>
-    <td align="center">
-      <a href="https://aws.amazon.com/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
-      </a>
-      <br>AWS (CCP)
-    </td>
-    <td align="center">
-      <a href="https://aws.amazon.com/s3/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/amazon-s3.png" alt="S3" width="48" height="48"/>
-      </a>
-      <br>AWS S3
-    </td>
-    <td align="center">
-      <a href="https://www.linux.org/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
-      </a>
-      <br>Linux
-    </td>
-    <td align="center">
-      <a href="https://git-scm.com/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
-      </a>
-      <br>Git
-    </td>
-  </tr>
-</table>
-
-### 🔹 Delivery & Compliance
-<table border="0">
-  <tr>
-    <td align="center">
-      <img src="https://img.icons8.com/color/48/000000/jira.png" alt="Jira" width="48" height="48"/>
-      <br>Jira
-    </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/48/000000/gantt-chart.png" alt="ITIL" width="48" height="48"/>
-      <br>ITIL
-    </td>
-    <td align="center">
-      <a href="https://www.python.org/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"/>
-      </a>
-      <br>Python
-    </td>
-  </tr>
-</table>
+- 👨‍💻 I’m currently working as a **Database Administrator**, building strong foundations in data management and reliability  
+- 🌱 Transitioning into **Data Engineering** by designing end‑to‑end batch and streaming pipelines  
+- 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights
+- 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
+- 📫 Reach me at **arjunmpec101@gmail.com**  
+- ⚡ Fun fact: **I debug pipelines the way I play games — with persistence and strategy**  
 
 ---
 
-## 📂 Projects
-
-> *Note: Projects below reflect earlier SQL and analytics exploration work. 
-> Current focus is on cloud migration and mainframe modernization.*
-
-### 🧱 [Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)
-End-to-end Bronze → Silver → Gold layered architecture built entirely in SQL Server/MySQL. Star schema with fact_sales, dim_customers, dim_products using surrogate keys, window functions, and analytics-ready views.
-
-### 🗄️ [Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)
-End-to-end SQL analytics pipeline with Python (Pandas) EDA, RFM segmentation of 541K+ transactions hardened in SQL Server, and interactive Power BI dashboard with What-If Revenue Recovery simulator.
-
-### 📊 [Retail Inventory & Sales Forecasting](https://github.com/Arjun-M-101/Retail_Inventory_and_Sales_Forecasting)
-Multi-layer data pipeline: SQL Server View → Power Query monthly aggregation → Power BI Time Intelligence model with AI-powered 3-month seasonal forecast (exponential smoothing, 95% CI) and YoY/YTD benchmarking across 4 years of retail data.
-
-<!--
 <p align="left">
 
 ## 🛠️ Tech Stack
@@ -251,23 +148,7 @@ Multi-layer data pipeline: SQL Server View → Power Query monthly aggregation �
 
 ## 📂 Featured Projects
 
-- 🗄️ **[Customer Churn & Retention Analytics (RFM Model)](https://github.com/Arjun-M-101/Customer_Churn_and_Retention_Analytics-RFM_Model)**  
-  Built an end-to-end analytics pipeline: **Python (Pandas)** for EDA and RFM aggregation of **541K+ transactions**, hardened schema in **SQL Server**, and modeled in **Power BI**.  
-  - Engineered an **RFM segmentation model** using **RANKX quintile scoring in DAX**, dynamically assigning 1–5 scores for Recency, Frequency, and Monetary value.  
-  - Produced **six behavioural customer segments**: Champions, Loyal Customers, Potential Loyalists, Needs Attention, At Risk, and Hibernating — enabling targeted retention strategies.  
-  - Developed an **interactive What-If Revenue Recovery simulator** using Power BI Numeric Range parameter + SELECTEDVALUE DAX.  
-  - Enabled marketing stakeholders to **model financial impact of retention campaigns in real time** against the At-Risk segment.  
-  - Delivered a **business-ready churn dashboard** combining raw data ingestion → RFM scoring → visualization → revenue recovery simulation.  
-
-- 📊 **[Retail Inventory & Sales Forecasting](https://github.com/Arjun-M-101/Retail_Inventory_and_Sales_Forecasting)**  
-  Engineered a **multi-layer data pipeline**: SQL Server View for raw abstraction → Power Query monthly aggregation (**9,994 daily rows → 573 monthly rows**) → Power BI Time Intelligence model.  
-  - Implemented **CALENDARAUTO DateTable** with SAMEPERIODLASTYEAR and TOTALYTD DAX measures for **YoY and YTD benchmarking across 4 years** of retail transactions.  
-  - Built an **AI-powered 3-month seasonal forecast** (exponential smoothing, seasonality=12, 95% CI) with conditional alert cards that auto‑highlight declining categories.  
-  - Designed an **interactive Tooltip Page** linked to forecast charts — hovering over spikes surfaces category-level breakdown instantly.  
-  - Enabled operations managers to **identify declining categories without scanning tables**, accelerating decision-making.  
-  - Delivered a **business-ready forecasting solution** integrating SQL + Power BI + AI forecasting for inventory planning and revenue optimization.  
-
-- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
+- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
   End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
   - Built entirely in **SQL Server/MySQL** (no external ETL tool)
   - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
@@ -276,8 +157,24 @@ Multi-layer data pipeline: SQL Server View → Power Query monthly aggregation �
   - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
+- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
+  End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
+  - Orchestrated with **Apache Airflow (3.x)**  
+  - Transformations with **Apache Spark**  
+  - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
+  - Serving layer in **Postgres** (analytics‑ready tables)  
+  - Interactive **Streamlit + Altair dashboard** via SQLAlchemy  
+  - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI  
+
+- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
+  Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
+  - Ingestion via **Kafka producer** publishing to `stock_ticks` topic  
+  - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
+  - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
+  - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
+  - Fully orchestrated with **Apache Airflow**  
+
 ---
--->
 
 ## 📜 Certifications
 
