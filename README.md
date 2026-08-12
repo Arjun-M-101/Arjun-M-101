@@ -157,7 +157,7 @@ End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gol
   - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
-- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**
+- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
 End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
   - Orchestrated with **Apache Airflow (3.x)**  
   - Transformations with **Apache Spark**  
@@ -167,7 +167,7 @@ End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture 
   - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI  
 
 - 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
-  Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
+Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
   - Ingestion via **Kafka producer** publishing to `stock_ticks` topic  
   - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
   - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
