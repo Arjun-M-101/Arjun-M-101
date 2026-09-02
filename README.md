@@ -68,7 +68,7 @@
     </td>
     <td>
       <a href="https://kafka.apache.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original-wordmark.svg" alt="Kafka" width="48" height="48"/>
+        <img src="https://juststickers.in/wp-content/uploads/2019/07/apache-kafka.png" alt="Kafka" width="48" height="48"/>
       </a>
     </td>
     <td>
