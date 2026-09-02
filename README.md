@@ -12,6 +12,7 @@
 ## 🙋‍♂️ About Me
 
 - 👨‍💻 **On the Job:** Managing the extraction side of an active Mainframe (Db2 z/OS)-to-AWS Cloud migration - successfully shipped clean data across 280+ tables.
+- 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Deployed against a live AWS account end-to-end - hit and fixed **17 real production issues** along the way.
 - 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
@@ -80,6 +81,11 @@
         <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
       </a>
     </td>
+    <td>
+      <a href="https://www.getdbt.com/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dbt/dbt-original.svg" alt="dbt" width="48" height="48"/>
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -132,6 +138,11 @@
         <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
       </a>
     </td>
+    <td>
+      <a href="https://www.terraform.io/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="Terraform" width="48" height="48"/>
+      </a>
+    </td>
   </tr>
 </table>
 <!--
@@ -166,17 +177,28 @@
 
 ## 📂 Featured Projects
 
+- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*  
+End‑to‑end **AWS-native batch lakehouse** implementing the **Medallion Architecture (Bronze → Silver → Gold)** on a live AWS account, orchestrated top to bottom as infrastructure-as-code.
+  - **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
+  - **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup and Silver→Gold aggregation
+  - **Warehouse & BI:** **Redshift Serverless** (private, VPC-only) feeding a published **QuickSight** dashboard; **Athena** for ad-hoc Silver queries
+  - **Data quality:** A real DQ gate that quarantines (never silently drops) bad rows with a reason code, distinguishing duplicates from genuine corruption
+  - **Testing:** 61 **pytest** unit tests (pure transformation logic, no AWS needed) + 27 **dbt** tests against the warehouse
+  - **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup
+  - **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
+  - Diagnosed and fixed **17 real production issues** on a live AWS account (IAM least-privilege bugs, Terraform state drift, QuickSight VPC networking, DQ false positives, and more) — fully documented in-repo, including a deploy/teardown playbook to keep AWS spend at zero when idle
+
 - 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
 End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
   - Built entirely in **SQL Server/MySQL** (no external ETL tool)
   - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
   - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
   - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
-  - Uses ****window functions** (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
+  - Uses **window functions (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
   - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
-- 🗄️ **[YouTube Data Engineering Pipeline (Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
-End‑to‑end **batch ETL pipeline** implementing the **Medallion Architecture (Bronze → Silver → Gold)**.  
+- 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
+The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
   - Orchestrated with **Apache Airflow (3.x)**  
   - Transformations with **Apache Spark**  
   - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
