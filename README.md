@@ -188,15 +188,6 @@ End‑to‑end **AWS-native batch lakehouse** implementing the **Medallion Archi
   - **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
   - Diagnosed and fixed **17 real production issues** on a live AWS account (IAM least-privilege bugs, Terraform state drift, QuickSight VPC networking, DQ false positives, and more) — fully documented in-repo, including a deploy/teardown playbook to keep AWS spend at zero when idle
 
-- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
-End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
-  - Built entirely in **SQL Server/MySQL** (no external ETL tool)
-  - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
-  - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
-  - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
-  - Uses **window functions (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
-  - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
-
 - 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
 The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
   - Orchestrated with **Apache Airflow (3.x)**  
@@ -212,7 +203,16 @@ Real‑time **streaming pipeline** simulating stock ticks and processing them en
   - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
   - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
   - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
-  - Fully orchestrated with **Apache Airflow**  
+  - Fully orchestrated with **Apache Airflow**
+
+- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
+End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
+  - Built entirely in **SQL Server/MySQL** (no external ETL tool)
+  - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
+  - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
+  - Gold layer models a **star schema** with fact_sales, dim_customers, and dim_products using surrogate keys
+  - Uses **window functions (ROW_NUMBER)** and joins to integrate history, resolve conflicts, and conform dimensions
+  - Produces **analytics‑ready views/tables** suitable for BI tools and downstream reporting
 
 ---
 
