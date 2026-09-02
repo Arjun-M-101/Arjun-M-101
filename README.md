@@ -77,13 +77,13 @@
       </a>
     </td>
     <td>
-      <a href="https://streamlit.io/" target="_blank">
-        <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
+      <a href="https://www.getdbt.com/" target="_blank">
+        <img src="https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG" alt="dbt" width="48" height="48"/>
       </a>
     </td>
     <td>
-      <a href="https://www.getdbt.com/" target="_blank">
-        <img src="https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG" alt="dbt" width="48" height="48"/>
+      <a href="https://streamlit.io/" target="_blank">
+        <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
       </a>
     </td>
   </tr>
