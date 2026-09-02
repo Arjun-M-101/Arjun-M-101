@@ -83,7 +83,7 @@
     </td>
     <td>
       <a href="https://www.getdbt.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dbt/dbt-original.svg" alt="dbt" width="48" height="48"/>
+        <img src="https://cdn.simpleicons.org/dbt/FF694B" alt="dbt" width="48" height="48"/>
       </a>
     </td>
   </tr>
