@@ -73,7 +73,7 @@
     </td>
     <td>
       <a href="https://airflow.apache.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apacheairflow/apacheairflow-original-wordmark.svg" alt="Airflow" width="48" height="48"/>
+        <img src="https://images.seeklogo.com/logo-png/63/1/apache-airflow-logo-png_seeklogo-630191.png" alt="Airflow" width="48" height="48"/>
       </a>
     </td>
     <td>
