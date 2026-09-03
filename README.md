@@ -115,9 +115,14 @@
   </tr>
 </table>
 
-### 🔹 DevOps & Cloud
+### 🔹 Cloud & DevOps
 <table border="0">
   <tr>
+    <td>
+      <a href="https://aws.amazon.com/" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
+      </a>
+    </td>
     <td>
       <a href="https://www.linux.org/" target="_blank">
         <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
@@ -128,16 +133,13 @@
         <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
       </a>
     </td>
+    <!--
     <td>
       <a href="https://www.docker.com/" target="_blank">
         <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="48" height="48"/>
       </a>
     </td>
-    <td>
-      <a href="https://aws.amazon.com/" target="_blank">
-        <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
-      </a>
-    </td>
+    -->
     <td>
       <a href="https://www.terraform.io/" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="Terraform" width="48" height="48"/>
