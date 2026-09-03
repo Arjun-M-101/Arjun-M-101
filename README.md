@@ -179,9 +179,8 @@
 
 ## 📂 Featured Projects
 
-- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*
+- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project* 
   End-to-end **AWS-native batch lakehouse** implementing the **Medallion Architecture (Bronze → Silver → Gold)** on a live AWS account, orchestrated top to bottom as infrastructure-as-code.
-
   * **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
   * **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup **with schema-drift detection**, and Silver→Gold aggregation with **full-refresh or opt-in incremental loading**
   * **Incremental processing:** **S3 watermark + filtered Spark reads + Redshift `MERGE`**, with full-refresh behavior retained as the safe default
