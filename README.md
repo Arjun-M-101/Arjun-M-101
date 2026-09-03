@@ -63,7 +63,7 @@
     </td>
     <td>
       <a href="https://spark.apache.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original-wordmark.svg" alt="Spark" width="48" height="48"/>
+        <img src="https://i.pinimg.com/736x/cd/ea/b2/cdeab2ba87244b2ce8bbbb046a48549f.jpg" alt="Spark" width="48" height="48"/>
       </a>
     </td>
     <td>
