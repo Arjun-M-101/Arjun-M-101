@@ -109,7 +109,7 @@
     </td>
     <td>
       <a href="https://www.ibm.com/products/db2" target="_blank">
-        <img src="https://icons.veryicon.com/png/o/education-technology/onemind/db2.png" alt="IBM DB2" width="48" height="48"/>
+        <img src="https://banner2.cleanpng.com/20180418/rzq/avflj7vew.webp" alt="IBM DB2" width="48" height="48"/>
       </a>
     </td>
   </tr>
