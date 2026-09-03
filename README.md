@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/arjun-m-327a7a1a5/">
-    <img width="1536" height="1024" alt="Github_profile_pic" src="https://github.com/user-attachments/assets/76eee9f6-6452-4bde-b0a5-06959e704a26" />
+    <img width="1536" height="1024" alt="Github_profile_pic" src="https://github.com/user-attachments/assets/6b1f1170-3ada-4381-9d30-52822c4a92e5" />
   </a>
 </p>
 
