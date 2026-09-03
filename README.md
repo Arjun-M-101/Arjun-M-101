@@ -13,11 +13,11 @@
 
 - 👨‍💻 **On the Job:** Managing the extraction side of an active Mainframe (Db2 z/OS)-to-AWS Cloud migration - successfully shipped clean data across 280+ tables.
 * 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Deployed against a live AWS account end-to-end - diagnosed and fixed **19 real production issues** along the way, including IAM, networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
-- 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
+- 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
-- 📫 Reach me at **arjunmpec101@gmail.com**  
-- ⚡ Fun fact: **I debug pipelines the way I play games - with persistence and strategy**  
+- 📫 Reach me at **arjunmpec101@gmail.com**
+- ⚡ Fun fact: **I debug pipelines the way I play games - with persistence and strategy**
 
 ---
 
@@ -51,7 +51,7 @@
     </td>
   </tr>
 </table>
--->  
+-->
 
 ### 🔹 Data Engineering & Analytics
 <table border="0">
@@ -179,8 +179,10 @@
 
 ## 📂 Featured Projects
 
-- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*  
-  End-to-end **AWS-native batch lakehouse** implementing the **Medallion Architecture (Bronze → Silver → Gold)** on a live AWS account, orchestrated top to bottom as infrastructure-as-code.
+- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*
+
+  <p align="justify">End-to-end <strong>AWS-native batch lakehouse</strong> implementing the <strong>Medallion Architecture (Bronze → Silver → Gold)</strong> on a live AWS account, orchestrated top to bottom as infrastructure-as-code.</p>
+
   * **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
   * **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup **with schema-drift detection**, and Silver→Gold aggregation with **full-refresh or opt-in incremental loading**
   * **Incremental processing:** **S3 watermark + filtered Spark reads + Redshift `MERGE`**, with full-refresh behavior retained as the safe default
@@ -189,27 +191,33 @@
   * **Testing:** **pytest** unit tests for transformation/API logic + **27 dbt tests** against the warehouse
   * **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup
   * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
-  * Diagnosed and fixed **19 real production issues** on a live AWS account — including IAM, Terraform state drift, QuickSight/VPC networking, DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
+    * Diagnosed and fixed **19 real production issues** on a live AWS account — including IAM, Terraform state drift, QuickSight/VPC networking, DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
 
-- 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
-The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
-  - Orchestrated with **Apache Airflow (3.x)**  
-  - Transformations with **Apache Spark**  
-  - Data lake layers on **local filesystem** (Bronze/Silver/Gold)  
-  - Serving layer in **Postgres** (analytics‑ready tables)  
-  - Interactive **Streamlit + Altair dashboard** via SQLAlchemy  
-  - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI  
+- 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**
 
-- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**  
-Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.  
-  - Ingestion via **Kafka producer** publishing to `stock_ticks` topic  
-  - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)  
-  - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**  
-  - Interactive **Streamlit + Altair dashboard** for real‑time visualization  
+  <p align="justify">The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.</p>
+
+  - Orchestrated with **Apache Airflow (3.x)**
+  - Transformations with **Apache Spark**
+  - Data lake layers on **local filesystem** (Bronze/Silver/Gold)
+  - Serving layer in **Postgres** (analytics‑ready tables)
+  - Interactive **Streamlit + Altair dashboard** via SQLAlchemy
+  - Ingests raw **YouTube trending data (CSV/JSON)**, cleans, enriches, and computes derived metrics for BI
+
+- 📊 **[StockPulse (Streaming Pipeline)](https://github.com/Arjun-M-101/Stock_Pulse)**
+
+  <p align="justify">Real‑time **streaming pipeline** simulating stock ticks and processing them end‑to‑end.</p>
+
+  - Ingestion via **Kafka producer** publishing to `stock_ticks` topic
+  - Processing with **Spark Structured Streaming** (schema enforcement + derived metrics)
+  - Dual sinks: **Postgres (serving layer)** + **Parquet (partitioned by index/date)**
+  - Interactive **Streamlit + Altair dashboard** for real‑time visualization
   - Fully orchestrated with **Apache Airflow**
 
-- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**  
-End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.
+- 🧱 **[Retail Sales SQL Data Warehouse](https://github.com/Arjun-M-101/Retail-Sales-SQL-Data-Warehouse)**
+
+  <p align="justify">End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gold** layered architecture for retail sales.</p>
+
   - Built entirely in **SQL Server/MySQL** (no external ETL tool)
   - Bronze layer mirrors raw **CRM & ERP** source tables (customers, products, sales, locations)
   - Silver layer applies **data quality checks** (ID normalization, date validation, gender/marital‑status standardization)
@@ -253,11 +261,11 @@ End‑to‑end **SQL data warehouse** implementing a **Bronze → Silver → Gol
 </p>
 <p align="center">
 <a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Github Stats" 
+  <img alt="Arjun M's Github Stats"
      src="https://github-readme-stats-one.vercel.app/api?username=Arjun-M-101&show_icons=true&count_private=true&theme=black-ice&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=00FFFF"/>
 </a>
 <a href="https://github.com/Arjun-M-101">
-  <img alt="Arjun M's Top Languages" 
+  <img alt="Arjun M's Top Languages"
      src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=Arjun-M-101&langs_count=8&count_private=true&layout=compact&theme=black-ice&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF"/>
 </a>
 </p>
