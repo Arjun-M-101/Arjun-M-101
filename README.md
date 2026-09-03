@@ -57,11 +57,6 @@
 <table border="0">
   <tr>
     <td>
-      <a href="https://pandas.pydata.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
-      </a>
-    </td>
-    <td>
       <a href="https://spark.apache.org/" target="_blank">
         <img src="https://i.pinimg.com/736x/cd/ea/b2/cdeab2ba87244b2ce8bbbb046a48549f.jpg" alt="Spark" width="48" height="48"/>
       </a>
@@ -79,6 +74,11 @@
     <td>
       <a href="https://www.getdbt.com/" target="_blank">
         <img src="https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG" alt="dbt" width="48" height="48"/>
+      </a>
+    </td>
+    <td>
+      <a href="https://pandas.pydata.org/" target="_blank">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
       </a>
     </td>
     <td>
