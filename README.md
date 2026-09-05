@@ -12,7 +12,7 @@
 ## 🙋‍♂️ About Me
 
 - 👨‍💻 **On the Job:** Managing the extraction side of an active Mainframe (Db2 z/OS)-to-AWS Cloud migration - successfully shipped clean data across 280+ tables.
-* 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Deployed against a live AWS account end-to-end - diagnosed and fixed **12 real production issues** along the way, including IAM, networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
+* 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Gold also lands as a genuine **Apache Iceberg** table (ACID + time-travel queries via Athena), written independently of the live Redshift/dbt/QuickSight path. Deployed against a live AWS account end-to-end - diagnosed and fixed **12 real production issues** along the way, including IAM, VPC/PrivateLink networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
 - 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
@@ -184,12 +184,13 @@
   * **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
   * **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup **with schema-drift detection**, and Silver→Gold aggregation with **full-refresh or opt-in incremental loading**
   * **Incremental processing:** **S3 watermark + filtered Spark reads + Redshift `MERGE`**, with full-refresh behavior retained as the safe default
-  * **Warehouse & BI:** **Redshift Serverless** (private, VPC-only) feeding a published **QuickSight** dashboard; **Athena** for ad-hoc Silver queries
+  * **Modern table format:** Gold also lands as a genuine **Apache Iceberg** table (ACID commits, snapshot isolation, time-travel queries) via Glue 5.1's native Iceberg support — an additive, independently-written copy that can never affect the live Redshift/dbt/QuickSight path
+  * **Warehouse & BI:** **Redshift Serverless** (private, VPC-only) feeding a published **QuickSight** dashboard; **Athena** for ad-hoc Silver queries and Iceberg time-travel queries on Gold
   * **Data quality:** A real DQ gate that quarantines (never silently drops) bad rows with a reason code, distinguishing duplicates from genuine corruption; schema-drift results are included in the DQ report
   * **Testing:** **pytest** unit tests for transformation/API logic + **27 dbt tests** against the warehouse
-  * **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup
+  * **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup and dedicated VPC interface endpoints (Secrets Manager, Logs, STS, Glue) to avoid a NAT Gateway
   * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
-  * Diagnosed and fixed **19 real production issues** on a live AWS account — including IAM, Terraform state drift, QuickSight/VPC networking, DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
+  * Diagnosed and fixed **12 real production issues** on a live AWS account — including IAM, Terraform state drift, VPC/PrivateLink networking (QuickSight and Glue Catalog access), DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
 
 - 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
 The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
