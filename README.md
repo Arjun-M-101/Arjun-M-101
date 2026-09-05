@@ -12,7 +12,7 @@
 ## 🙋‍♂️ About Me
 
 - 👨‍💻 **On the Job:** Managing the extraction side of an active Mainframe (Db2 z/OS)-to-AWS Cloud migration - successfully shipped clean data across 280+ tables.
-* 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Deployed against a live AWS account end-to-end - diagnosed and fixed **19 real production issues** along the way, including IAM, networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
+* 🏗️ **Latest Build:** Shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Deployed against a live AWS account end-to-end - diagnosed and fixed **11 real production issues** along the way, including IAM, networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
 - 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
