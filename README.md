@@ -81,12 +81,14 @@
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
       </a>
     </td>
+    <!--
     <td>
       <a href="https://streamlit.io/" target="_blank">
         <img src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="Streamlit" width="48" height="48"/>
       </a>
     </td>
   </tr>
+    -->
 </table>
 
 ### 🔹 Databases
