@@ -28,82 +28,109 @@
 <table align="center" border="0">
   <tr>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Languages</h3>
-      <p align="center">
-        <a href="https://www.w3schools.com/sql/" target="_blank">
-          <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" alt="SQL" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://python.org" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"/>
-        </a>
-      </p>
+      <h3 align="center">Languages</h3>
+      <table align="center" border="0">
+        <tr>
+          <td>
+            <a href="https://www.w3schools.com/sql/" target="_blank">
+              <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" alt="SQL" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://python.org" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python" width="48" height="48"/>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Data Engineering & Analytics</h3>
-      <p align="center">
-        <a href="https://spark.apache.org/" target="_blank">
-          <img src="https://i.pinimg.com/736x/cd/ea/b2/cdeab2ba87244b2ce8bbbb046a48549f.jpg" alt="Spark" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://kafka.apache.org/" target="_blank">
-          <img src="https://juststickers.in/wp-content/uploads/2019/07/apache-kafka.png" alt="Kafka" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://airflow.apache.org/" target="_blank">
-          <img src="https://images.seeklogo.com/logo-png/63/1/apache-airflow-logo-png_seeklogo-630191.png" alt="Airflow" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.getdbt.com/" target="_blank">
-          <img src="https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG" alt="dbt" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://pandas.pydata.org/" target="_blank">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
-        </a>
-      </p>
+      <h3 align="center">Data Engineering & Analytics</h3>
+      <table align="center" border="0">
+        <tr>
+          <td>
+            <a href="https://spark.apache.org/" target="_blank">
+              <img src="https://i.pinimg.com/736x/cd/ea/b2/cdeab2ba87244b2ce8bbbb046a48549f.jpg" alt="Spark" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://kafka.apache.org/" target="_blank">
+              <img src="https://juststickers.in/wp-content/uploads/2019/07/apache-kafka.png" alt="Kafka" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://airflow.apache.org/" target="_blank">
+              <img src="https://images.seeklogo.com/logo-png/63/1/apache-airflow-logo-png_seeklogo-630191.png" alt="Airflow" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.getdbt.com/" target="_blank">
+              <img src="https://media.trustradius.com/product-logos/96/cb/5OO11QWM1UTI.PNG" alt="dbt" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://pandas.pydata.org/" target="_blank">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="Pandas" width="48" height="48"/>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
   <tr>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Databases</h3>
-      <p align="center">
-        <a href="https://www.postgresql.org/" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.mysql.com/" target="_blank">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.ibm.com/products/db2" target="_blank">
-          <img src="https://www.simpleindex.com/wp-content/uploads/2023/07/IBM-DB2-Logo.png" alt="IBM DB2" width="48" height="48"/>
-        </a>
-      </p>
+      <h3 align="center">Databases</h3>
+      <table align="center" border="0">
+        <tr>
+          <td>
+            <a href="https://www.postgresql.org/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="Postgres" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.mysql.com/" target="_blank">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.microsoft.com/en-us/sql-server/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="MS SQL" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.ibm.com/products/db2" target="_blank">
+              <img src="https://www.simpleindex.com/wp-content/uploads/2023/07/IBM-DB2-Logo.png" alt="IBM DB2" width="48" height="48"/>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Cloud & DevOps</h3>
-      <p align="center">
-        <a href="https://aws.amazon.com/" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.linux.org/" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://git-scm.com/" target="_blank">
-          <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://www.terraform.io/" target="_blank">
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="Terraform" width="48" height="48"/>
-        </a>
-      </p>
+      <h3 align="center">Cloud & DevOps</h3>
+      <table align="center" border="0">
+        <tr>
+          <td>
+            <a href="https://aws.amazon.com/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.linux.org/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://git-scm.com/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="48" height="48"/>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.terraform.io/" target="_blank">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" alt="Terraform" width="48" height="48"/>
+            </a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
