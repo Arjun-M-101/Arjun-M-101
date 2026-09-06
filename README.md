@@ -25,11 +25,11 @@
 
 ## 🛠️ Tech Stack
 
-<table border="0">
+<table align="center" border="0">
   <tr>
-    <td valign="top" width="50%">
-      <h3>🔹 Languages</h3>
-      <table border="0">
+    <td align="center" valign="top" width="50%">
+      <h3 align="center">🔹 Languages</h3>
+      <table align="center" border="0">
         <tr>
           <td>
             <a href="https://www.w3schools.com/sql/" target="_blank">
@@ -44,9 +44,9 @@
         </tr>
       </table>
     </td>
-    <td valign="top" width="50%">
-      <h3>🔹 Data Engineering & Analytics</h3>
-      <table border="0">
+    <td align="center" valign="top" width="50%">
+      <h3 align="center">🔹 Data Engineering & Analytics</h3>
+      <table align="center" border="0">
         <tr>
           <td>
             <a href="https://spark.apache.org/" target="_blank">
@@ -78,9 +78,9 @@
     </td>
   </tr>
   <tr>
-    <td valign="top" width="50%">
-      <h3>🔹 Databases</h3>
-      <table border="0">
+    <td align="center" valign="top" width="50%">
+      <h3 align="center">🔹 Databases</h3>
+      <table align="center" border="0">
         <tr>
           <td>
             <a href="https://www.postgresql.org/" target="_blank">
@@ -105,9 +105,9 @@
         </tr>
       </table>
     </td>
-    <td valign="top" width="50%">
-      <h3>🔹 Cloud & DevOps</h3>
-      <table border="0">
+    <td align="center" valign="top" width="50%">
+      <h3 align="center">🔹 Cloud & DevOps</h3>
+      <table align="center" border="0">
         <tr>
           <td>
             <a href="https://aws.amazon.com/" target="_blank">
