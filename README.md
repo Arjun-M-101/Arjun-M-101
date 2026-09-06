@@ -28,7 +28,7 @@
 <table align="center" border="0">
   <tr>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Languages</h3>
+      <h3 align="center">Languages</h3>
       <table align="center" border="0">
         <tr>
           <td>
@@ -45,7 +45,7 @@
       </table>
     </td>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Data Engineering & Analytics</h3>
+      <h3 align="center">Data Engineering & Analytics</h3>
       <table align="center" border="0">
         <tr>
           <td>
@@ -79,7 +79,7 @@
   </tr>
   <tr>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Databases</h3>
+      <h3 align="center">Databases</h3>
       <table align="center" border="0">
         <tr>
           <td>
@@ -106,7 +106,7 @@
       </table>
     </td>
     <td align="center" valign="top" width="50%">
-      <h3 align="center">🔹 Cloud & DevOps</h3>
+      <h3 align="center">Cloud & DevOps</h3>
       <table align="center" border="0">
         <tr>
           <td>
