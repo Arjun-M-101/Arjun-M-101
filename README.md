@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.linkedin.com/in/arjun-m-327a7a1a5/">
+  <a href="https://arjun-m-101.github.io/">
     <img width="1536" height="1024" alt="Github_profile_pic" src="https://github.com/user-attachments/assets/01781b8c-6d99-4470-83aa-f0e1c927ee15" />
   </a>
 </p>
@@ -15,7 +15,8 @@
 * 🏗️ **Latest Builds:** Shipped **[Connected-Car Telemetry on AWS](https://github.com/Arjun-M-101/connected-car-telemetry-aws)** - an IoT pipeline for simulated vehicle sensors (tyre pressure, pedals, fuel) on a live AWS account: IoT Core (MQTT, one X.509 certificate per vehicle) → Data Firehose with a validation Lambda → S3 → Glue → Athena, plus a DynamoDB latest-state path, SNS low-tyre alerts, CloudWatch monitoring and an AI chatbot that can only run fixed read-only queries. Deployed from one CloudFormation template, covered by 79 tests and CI, and fixed **11 real issues** across five live-tested versions. Before that, shipped **[YouTube Lakehouse](https://github.com/Arjun-M-101/youtube-lakehouse)** - a fully AWS-native batch lakehouse (S3 → Lambda → Step Functions → Glue/Spark → Redshift Serverless → QuickSight), 100% Terraform-managed, tested, and torn down on demand to control cost. Gold also lands as a genuine **Apache Iceberg** table (ACID + time-travel queries via Athena), written independently of the live Redshift/dbt/QuickSight path. Deployed against a live AWS account end-to-end - diagnosed and fixed **12 real production issues** along the way, including IAM, VPC/PrivateLink networking, Terraform state, data-quality, schema-drift, and incremental-loading problems.
 - 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
-- 👯 Open to collaborating on **Data Engineering & Open Source projects**  <!-- - 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-portfolio.onrender.com/)**  -->
+- 👯 Open to collaborating on **Data Engineering & Open Source projects**
+- 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-m-101.github.io/)**  -->
 - 📫 Reach me at **arjunmpec101@gmail.com**  
 - ⚡ Fun fact: **I debug pipelines the way I play games - with persistence and strategy**  
 
