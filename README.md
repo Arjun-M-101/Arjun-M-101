@@ -16,7 +16,7 @@
 - 🌱 **The Transition:** Fusing 3 years of deep enterprise database infrastructure experience with modern engineering tools to architect scalable, high-performance data systems.  
 - 🛠️ Passionate about building scalable, reliable data pipelines that turn raw data into actionable insights.
 - 👯 Open to collaborating on **Data Engineering & Open Source projects**
-- 👨‍💻 Explore my work here: **[My Portfolio](https://arjun-m-101.github.io/)**  -->
+- 👨‍💻 Explore my work here:  --> **[My Portfolio](https://arjun-m-101.github.io/)** 
 - 📫 Reach me at **arjunmpec101@gmail.com**  
 - ⚡ Fun fact: **I debug pipelines the way I play games - with persistence and strategy**  
 
