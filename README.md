@@ -152,7 +152,7 @@
   * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
   * Diagnosed and fixed **12 real production issues** on a live AWS account — including IAM, Terraform state drift, VPC/PrivateLink networking (QuickSight and Glue Catalog access), DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
 
-- 🚗 **[Connected-Car Telemetry on AWS (IoT Streaming Pipeline)](https://github.com/Arjun-M-101/connected-car-telemetry-aws)**  
+- 🚗 **[Connected-Car Telemetry on AWS (IoT Streaming Pipeline)](https://github.com/Arjun-M-101/connected-car-telemetry-aws)**  🔥 *Flagship Project*  
   End-to-end **IoT telemetry pipeline** for connected cars on a live AWS account: simulated vehicle sensors (tyre pressure, accelerator/clutch pedals, fuel level and efficiency) → **AWS IoT Core** → storage, real-time state, alerts and an AI chatbot, all deployed from **one CloudFormation template**.
   * **Device ingestion & identity:** Cars publish over **MQTT/TLS** to `vehicles/<id>/telemetry`; **one X.509 certificate and IoT policy per vehicle**, so a car can publish only to its own topic (spoofing test rejected by AWS IoT). Three **IoT rules** all take the vehicle ID from the authenticated topic, never from the payload
   * **Cold path (history):** IoT rule → **Amazon Data Firehose** (60 s buffer) → **S3** partitioned by date/hour → **Glue Data Catalog** table with **partition projection** (no crawler) → **Athena** SQL reports
