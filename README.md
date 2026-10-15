@@ -152,6 +152,19 @@
   * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
   * Diagnosed and fixed **12 real production issues** on a live AWS account — including IAM, Terraform state drift, VPC/PrivateLink networking (QuickSight and Glue Catalog access), DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
 
+- 🚗 **[Connected-Car Telemetry on AWS (IoT Streaming Pipeline)](https://github.com/Arjun-M-101/connected-car-telemetry-aws)**  
+  End-to-end **IoT telemetry pipeline** for connected cars on a live AWS account: simulated vehicle sensors (tyre pressure, accelerator/clutch pedals, fuel level and efficiency) → **AWS IoT Core** → storage, real-time state, alerts and an AI chatbot, all deployed from **one CloudFormation template**.
+  * **Device ingestion & identity:** Cars publish over **MQTT/TLS** to `vehicles/<id>/telemetry`; **one X.509 certificate and IoT policy per vehicle**, so a car can publish only to its own topic (spoofing test rejected by AWS IoT). Three **IoT rules** all take the vehicle ID from the authenticated topic, never from the payload
+  * **Cold path (history):** IoT rule → **Amazon Data Firehose** (60 s buffer) → **S3** partitioned by date/hour → **Glue Data Catalog** table with **partition projection** (no crawler) → **Athena** SQL reports
+  * **Data validation & schema drift:** A **Lambda transform** inside Firehose checks types and plausible ranges, keeps unknown device fields in an `extras` column (queryable immediately), flags bad values in `dq_issues` instead of dropping them, and stores an untouched raw copy of every message
+  * **Hot path (real time):** A rule writes the latest reading per car to **DynamoDB** (point-in-time recovery on), so current vehicle state is available in about a second
+  * **Alerts:** **SNS** e-mails the driver/support team when any tyre drops below **28 psi** (configurable parameter, based on TPMS regulations); tested with a simulated slow leak
+  * **AI chatbot:** An LLM (Google Gemini via an OpenAI-compatible API, Amazon Bedrock or OpenAI) picks **one of 7 fixed, read-only Athena queries** and phrases the answer — it never writes SQL (prompt-injection safe by design), with a keyword fallback when no LLM is set
+  * **Observability:** **CloudWatch** dashboard, 5 alarms (+1 optional no-data alarm) to a separate operations SNS topic, and 3 log groups with 30-day retention — e-mail path and a real no-data alarm and its recovery tested live
+  * **Security:** Least-privilege IAM roles, TLS-only encrypted S3 bucket with public access blocked, no secrets in code (API keys entered silently, certificates git-ignored)
+  * **Testing & CI:** **79 pytest tests** (validation, rule SQL, chatbot routing and injection attempts, device and event scripts) + **cfn-lint**, run by **GitHub Actions** on every push; README playbook covers deploy, 10 live test steps (including bad-data and spoofing tests) and a verified tear-down
+  * Built in five versions (v1 → v4.1), each deployed and tested on AWS; diagnosed and fixed **11 real issues** along the way — including an IoT rule defect that only a live run exposed (vehicle ID taken from the payload instead of the topic), Bedrock access errors, Firehose buffering and CloudShell session pitfalls - all documented with redacted evidence
+
 - 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
 The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
   - Orchestrated with **Apache Airflow (3.x)**  
