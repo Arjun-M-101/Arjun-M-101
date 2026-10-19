@@ -153,19 +153,6 @@
   * **Testing & CI:** **105 tests** - 101 pytest (including 6 eval datasets) plus 4 on real **Spark 3.5 + Kafka** - with ruff, the eval harness and `terraform validate`, green in **GitHub Actions** on every push. AWS infrastructure is **Terraform**; the live AWS run is the next phase
   * Real issues found and fixed along the way: Gemini plans arriving with missing parameters (caught by the validator every time), real Kaggle CSVs breaking auto-detection (fixed with a parsing fallback ladder), Spark misreading SQL-escaped quotes in date formats, and a crash-replay test that left a stale checksum file
 
-- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*  
-  End-to-end **AWS-native batch lakehouse** implementing the **Medallion Architecture (Bronze → Silver → Gold)** on a live AWS account, orchestrated top to bottom as infrastructure-as-code.
-  * **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
-  * **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup **with schema-drift detection**, and Silver→Gold aggregation with **full-refresh or opt-in incremental loading**
-  * **Incremental processing:** **S3 watermark + filtered Spark reads + Redshift `MERGE`**, with full-refresh behavior retained as the safe default
-  * **Modern table format:** Gold also lands as a genuine **Apache Iceberg** table (ACID commits, snapshot isolation, time-travel queries) via Glue 5.1's native Iceberg support — an additive, independently-written copy that can never affect the live Redshift/dbt/QuickSight path
-  * **Warehouse & BI:** **Redshift Serverless** (private, VPC-only) feeding a published **QuickSight** dashboard; **Athena** for ad-hoc Silver queries and Iceberg time-travel queries on Gold
-  * **Data quality:** A real DQ gate that quarantines (never silently drops) bad rows with a reason code, distinguishing duplicates from genuine corruption; schema-drift results are included in the DQ report
-  * **Testing:** **pytest** unit tests for transformation/API logic + **27 dbt tests** against the warehouse
-  * **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup and dedicated VPC interface endpoints (Secrets Manager, Logs, STS, Glue) to avoid a NAT Gateway
-  * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
-  * Diagnosed and fixed **12 real production issues** on a live AWS account — including IAM, Terraform state drift, VPC/PrivateLink networking (QuickSight and Glue Catalog access), DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
-
 - 🚗 **[Connected-Car Telemetry on AWS (IoT Streaming Pipeline)](https://github.com/Arjun-M-101/connected-car-telemetry-aws)**  🔥 *Flagship Project*  
   End-to-end **IoT telemetry pipeline** for connected cars on a live AWS account, upgraded in **v5.0** from a proof of concept to a **production architecture**: simulated vehicle sensors (tyre pressure, accelerator/clutch pedals, fuel level and efficiency) → **AWS IoT Core** → an encrypted **Kinesis Data Stream** → history, real-time state, alerts and an AI chatbot, all deployed from **one CloudFormation template** (44 resources).
   * **Device ingestion & identity:** Cars publish over **MQTT/TLS** to `vehicles/<id>/telemetry`; **one X.509 certificate and IoT policy per vehicle**, so a car can publish only to its own topic (spoofing test rejected by AWS IoT). **One IoT rule** takes the vehicle ID from the authenticated topic, never from the payload, and uses it as the stream's partition key
@@ -179,6 +166,19 @@
   * **Security:** Least-privilege IAM roles, TLS-only encrypted and versioned S3 bucket with public access blocked, KMS-encrypted stream, encrypted queue and table, DynamoDB point-in-time recovery, no secrets in code
   * **Testing & CI:** **109 pytest tests** (validation and state Lambdas against a fake DynamoDB that evaluates the real condition expressions, rule SQL, chatbot routing and injection attempts, device scripts) + **cfn-lint**, run by **GitHub Actions** on every push; one re-runnable `teardown.sh` deletes everything and verifies 18 resource types
   * Built in seven versions (v1 → v5.0), each deployed and tested on AWS; diagnosed and fixed **14 real issues** along the way — including an IoT rule that took the vehicle ID from the payload, a tear-down stuck on an old device certificate, unbounded chatbot answers after the load test, and Bedrock access errors - all documented with redacted evidence
+
+- 🏗️ **[YouTube Lakehouse (AWS-Native Batch Lakehouse)](https://github.com/Arjun-M-101/youtube-lakehouse)** 🔥 *Flagship Project*  
+  End-to-end **AWS-native batch lakehouse** implementing the **Medallion Architecture (Bronze → Silver → Gold)** on a live AWS account, orchestrated top to bottom as infrastructure-as-code.
+  * **Ingestion & orchestration:** S3 (lake) → Lambda (event trigger) → **Step Functions** (retries, DQ-gate branching, crawler polling, failure alerting)
+  * **Transformation:** Two **AWS Glue (Spark)** jobs — Bronze→Silver validation/cleaning/dedup **with schema-drift detection**, and Silver→Gold aggregation with **full-refresh or opt-in incremental loading**
+  * **Incremental processing:** **S3 watermark + filtered Spark reads + Redshift `MERGE`**, with full-refresh behavior retained as the safe default
+  * **Modern table format:** Gold also lands as a genuine **Apache Iceberg** table (ACID commits, snapshot isolation, time-travel queries) via Glue 5.1's native Iceberg support — an additive, independently-written copy that can never affect the live Redshift/dbt/QuickSight path
+  * **Warehouse & BI:** **Redshift Serverless** (private, VPC-only) feeding a published **QuickSight** dashboard; **Athena** for ad-hoc Silver queries and Iceberg time-travel queries on Gold
+  * **Data quality:** A real DQ gate that quarantines (never silently drops) bad rows with a reason code, distinguishing duplicates from genuine corruption; schema-drift results are included in the DQ report
+  * **Testing:** **pytest** unit tests for transformation/API logic + **27 dbt tests** against the warehouse
+  * **IaC & automation:** Fully **Terraform**-managed, including a scripted open/close toggle for secure dbt runs against a private Redshift workgroup and dedicated VPC interface endpoints (Secrets Manager, Logs, STS, Glue) to avoid a NAT Gateway
+  * **CI/CD:** **GitHub Actions** runs pytest, `terraform fmt`/`validate`, and `dbt parse` on every push — credential-free by design
+  * Diagnosed and fixed **12 real production issues** on a live AWS account — including IAM, Terraform state drift, VPC/PrivateLink networking (QuickSight and Glue Catalog access), DQ false positives, schema drift, and incremental-loading/orchestration issues - with the deployment and teardown lifecycle fully documented in-repo
 
 - 🗄️ **[YouTube Data Engineering Pipeline (Local Batch Processing)](https://github.com/Arjun-M-101/Youtube_DE_Project)**  
 The **local precursor** to YouTube Lakehouse above — same Medallion Architecture, built first on local/open-source tooling before the AWS-native rebuild.
